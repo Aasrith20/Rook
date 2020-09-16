@@ -11,7 +11,7 @@ function Time(){
     }
 
     minutes.innerHTML = a.getMinutes();
-    console.log(a.getMinutes());
+
 }
 function Initiate(){
     Time();
