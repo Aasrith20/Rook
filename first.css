@@ -40,7 +40,7 @@ box-shadow:1px 1px 4px grey;
 }
 @keyframes you {
     0% {border:3px solid red;top:0px;left:-15px;box-shadow:1px 1px 7px red;}
-    50% {border:3px solid yellow;top:0px;left:435px;box-shadow:1px 1px 7px yellow;}
+    50% {border:3px solid yellow;top:0px;left:440px;box-shadow:1px 1px 7px yellow;}
     100% {border:3px solid green;top:0px;left:890px;box-shadow:1px 1px 7px green;}
 }
 #moving_box{
