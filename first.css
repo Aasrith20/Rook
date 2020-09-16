@@ -26,7 +26,7 @@ box-shadow:1px 1px 4px grey;
     justify-content: center;
     margin:1px;
     font-size:200px;
-    color:yellow;
+    color:white;
 }
 #second_box{
     width:500px;
@@ -69,7 +69,7 @@ box-shadow:1px 1px 4px grey;
 100% {height:100%;}
 }
 #moving_box_1{
-    background-color:yellow;
+    background-color:white;
     width:100px;
     height:10%;
     border-radius:4px 7px 4px;
