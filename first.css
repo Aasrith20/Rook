@@ -1,3 +1,6 @@
+body{
+    background-color:black;
+}
 .main{
     display:flex;
     align-items:center;
@@ -39,27 +42,26 @@ box-shadow:1px 1px 4px grey;
     padding-left:20px;
 }
 @keyframes you {
-    0% {border:3px solid red;top:0px;left:-15px;box-shadow:1px 1px 7px red;}
-    50% {border:3px solid yellow;top:0px;left:440px;box-shadow:1px 1px 7px yellow;}
-    100% {border:3px solid green;top:0px;left:890px;box-shadow:1px 1px 7px green;}
+    0% {left:-15px;}
+    50% {left:440px;}
+    100% {left:890px;}
 }
 #moving_box{
     width:100px;
+    border:1px solid grey;
+    box-shadow:1px 1px 3px grey; 
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content:end;
     height:100px;
     position:relative;
-    border:2px solid yellow;
-    display:flex;
-    justify-content:end;
-    align-items:flex-end;
-    flex-direction:row;
     animation-name:you;
     animation-duration:10s;
     animation-iteration-count:infinite;
     animation-direction:alternate;
     margin-top:10px;
     padding:1px;
-    border: 1px solid black;
-
 }
 @keyframes inside {
 0% {height:0%;}
