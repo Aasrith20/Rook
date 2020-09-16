@@ -9,11 +9,15 @@ function Time(){
     else {
         hours.innerHTML = a.getHours();
     }
-
-    minutes.innerHTML = a.getMinutes();
+    if(Math.floor(a.getMinutes()/10) == 0){
+     minutes.innerHTML ="0"+ String(a.getMinutes())}
+    else{
+        minutes.innerHTML = a.getMinutes();
+    }
 
 }
 function Initiate(){
     Time();
     setInterval(Time,1000);
+
 }
