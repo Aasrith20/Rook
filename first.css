@@ -5,16 +5,14 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    flex-direction:column;
-    margin-top:70px;
-}
+    flex-direction:row;
+    margin-top:10%;
+} 
 .main_sub{
-display:flex;
-flex-direction:row;
-align-items:center;
-background-color:black;
-border:2px solid black;
-box-shadow:1px 1px 4px grey;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
 }
 #first_box {
     width:500px;
@@ -27,6 +25,8 @@ box-shadow:1px 1px 4px grey;
     margin:1px;
     font-size:200px;
     color:white;
+    top:50%;
+    left:50%;
 }
 #second_box{
     width:500px;
@@ -42,14 +42,13 @@ box-shadow:1px 1px 4px grey;
     padding-left:20px;
 }
 @keyframes you {
-    0% {left:-15px;}
-    50% {left:440px;}
-    100% {left:890px;}
+    0% {left:-40%;}
+    50% {left:0%;}
+    100% {left:40%;}
 }
 #moving_box{
     width:100px;
-    border:1px solid grey;
-    box-shadow:1px 1px 3px grey; 
+
     display:flex;
     flex-direction:row;
     align-items:flex-end;
