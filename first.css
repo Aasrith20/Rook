@@ -38,7 +38,7 @@ body{
 }
 @keyframes you {
     0% {left:0%;}
-    50% {left:43%;}
+    50% {left:45%;}
     100% {left:90%;}
 }
 #moving_box{
@@ -54,7 +54,7 @@ body{
     animation-iteration-count:infinite;
     animation-direction:alternate;
     margin-top:3vh;
-    padding:2px;
+    padding:1px;
 }
 @keyframes inside {
 0% {height:0%;}
@@ -71,7 +71,6 @@ body{
     animation-duration:10s;
     animation-iteration-count:infinite;
     animation-direction:alternate;
-    margin: 1px;
     border: 1px solid black;
 
 }
@@ -91,7 +90,6 @@ body{
     animation-duration:10s;
     animation-iteration-count:infinite;
     animation-direction:alternate;
-    margin: 1px;
     border: 1px solid black;
 
 
