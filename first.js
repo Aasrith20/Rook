@@ -14,10 +14,10 @@ function Time(){
     else{
         minutes.innerHTML = a.getMinutes();
     }
+    console.log("Hello")
 
 }
 function Initiate(){
     Time();
     setInterval(Time,1000);
-
 }

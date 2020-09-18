@@ -1,5 +1,29 @@
+#tab
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    height:5vh;
+    padding:3px;
+
+}
+.pomodoro,.home {
+    color:white;
+    text-shadow:0.3px 0.3px 1px grey;
+    font-size:95%;
+    margin:10px;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke:0.5px white;
+}
+.pomodoro:hover,.home:hover {
+    color:white;
+    text-shadow:0.3px 0.3px 1px white;
+    font-size:100%;
+    margin:10px;
+    text-decoration: none;
+}
 body{
-    background-color:black;
+    background-color: black;
 }
 .main{
     display:flex;
