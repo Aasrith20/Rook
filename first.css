@@ -62,9 +62,9 @@ body{
     padding-left:20px;
 }
 @keyframes you {
-    0% {left:-50%;}
-    50% {left:0%;}
-    100% {left:50%;}
+    0% {left:-45%;}
+    50% {left:-1%;}
+    100% {left:45%;}
 }
 #moving_box{
     width:11vh;
@@ -124,16 +124,15 @@ body{
    margin:center;
    width:90px;
    height:50px;
-   background-color:red;
-   color:white;
+   background-color:aqua;
+   color:black;
    display:flex;
    align-items:center;
    justify-content:center;
-   border:1px solid red;
    font-size:20px;
-   box-shadow:1px 1px 3px rgb(245, 65, 65);
+   border:1px solid black;
+   border-radius:5px;
+   box-shadow:0.5px 0.5px 2px  aqua;
 }
 .start:hover{
-    border:1px solid white;
-    box-shadow:1px 1px 1px whitesmoke;
 }
