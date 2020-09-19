@@ -11,7 +11,7 @@
     <title>Document</title>
 </head>
 
-<body onload="Initiate()">
+<body >
     <div class="container-fluid" id="tab">
         <a class="home" href="index.html">Home</a>
         <a class="pomodoro" href="index_2.html">Pomodoro</a>
@@ -19,16 +19,22 @@
 
     <div class="container main">
 
-        <div id="first_box">0</div>
-        <div id="second_box">0</div>
+        <div id="first_box" style="font-size:15vh;" class="minutes">20</div>
+        <div id="second_box" style="font-size:15vh;" class="seconds">00</div>
 
     </div>
+    
+    
     <div class="container main_sub">
         <div id="moving_box">
             <div id="moving_box_1"></div>
             <div id="moving_box_2"></div>
         </div>
     </div>
+        <div class="container main_sub">
+        <button class="start" onclick="Start()" id="start">
+            START
+        </button></div>
 
 
 </body>

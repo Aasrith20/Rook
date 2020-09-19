@@ -12,8 +12,7 @@
     text-shadow:0.3px 0.3px 1px grey;
     font-size:95%;
     margin:10px;
-    -webkit-text-fill-color:transparent;
-    -webkit-text-stroke:0.5px white;
+
 }
 .pomodoro:hover,.home:hover {
     color:white;
@@ -33,6 +32,9 @@ body{
 } 
 .main_sub{
     margin-top:1vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 #first_box {
     width:500vw;
@@ -60,9 +62,9 @@ body{
     padding-left:20px;
 }
 @keyframes you {
-    0% {left:0%;}
-    50% {left:45%;}
-    100% {left:90%;}
+    0% {left:-50%;}
+    50% {left:0%;}
+    100% {left:50%;}
 }
 #moving_box{
     width:11vh;
@@ -78,6 +80,7 @@ body{
     animation-direction:alternate;
     margin-top:3vh;
     padding:1px;
+    visibility:hidden;
 }
 @keyframes inside {
 0% {height:0%;}
@@ -116,4 +119,21 @@ body{
     border: 1px solid black;
 
 
+}
+.start{
+   margin:center;
+   width:90px;
+   height:50px;
+   background-color:red;
+   color:white;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   border:1px solid red;
+   font-size:20px;
+   box-shadow:1px 1px 3px rgb(245, 65, 65);
+}
+.start:hover{
+    border:1px solid white;
+    box-shadow:1px 1px 1px whitesmoke;
 }
