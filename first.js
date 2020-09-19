@@ -27,6 +27,9 @@ function Start(){
 
             document.getElementById("start").style.visibility = "visible";
             document.getElementById("moving_box").style.visibility = "hidden";
+            document.getElementById("moving_box").style.animationDuration = "0s";
+            document.getElementById("moving_box_2").style.animationDuration = "0s";
+            document.getElementById("moving_box_1").style.animationDuration = "0s";
         }
         document.getElementById("first_box").innerHTML=val[0];
         if(Math.floor(val_1[0]/10)==0){
@@ -40,9 +43,11 @@ function Start(){
                 }
         val_1[0]=val_1[0]-1;
     }
-    
     document.getElementById("start").style.visibility="hidden";
     document.getElementById("moving_box").style.visibility="visible";
+    document.getElementById("moving_box").style.animationDuration="10s";
+    document.getElementById("moving_box_2").style.animationDuration = "10s";
+    document.getElementById("moving_box_1").style.animationDuration = "10s";
     var val=[19]
     var val_1=[59]
      var b=setInterval(pomo,1000,val,val_1)
