@@ -43,7 +43,7 @@ function Start(){
     
     document.getElementById("start").style.visibility="hidden";
     document.getElementById("moving_box").style.visibility="visible";
-    var val=[1]
-    var val_1=[0]
+    var val=[19]
+    var val_1=[59]
      var b=setInterval(pomo,1000,val,val_1)
 }
